@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>SmartHomes</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
+    <!-- Links for Jquery and bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        <!-- jqurey script -->
+        $(document).ready(function () {
+
+            $('#myCarousel').carousel({
+                interval: 3000
+            })
+
+            $('.carousel .item').each(function () {
+                var next = $(this).next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+            });
+        });
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function dropdown()
+        {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function dropdown1()
+        {
+            document.getElementById("myDropdown1").classList.toggle("show");
+        }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event)
+        {
+            if (!event.target.matches('.dropbtn'))
+            {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++)
+                {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show'))
+                    {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        /* Datatable */
+        $(document).ready( function () {
+            $('.gridDataTable').DataTable({
+                pageLength : 5,
+                lengthMenu: [[5, 10, -1], [5, 10, 'All']],
+                //"pagingType": "full_numbers"
+            });
+        });
+    </script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <style>
+        * {
+            box-sizing: unset;
+        }
+
+        .col-md-6 {
+            width: 45% ! important;
+        }
+
+        .dropdown
+        {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content
+        {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            overflow: auto;
+        }
+
+        .dropdown-content a
+        {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .show
+        {
+            display: block;
+        }
+    </style>
+
+
+</head>
+<body onload="init()" style='margin: 0px !important; padding: 0 !important;	background-image: url(images/bg_image/bg2.jpg) !important;font-family: Georgia, "Times New Roman", Times, serif;	font-size: 12px !important;'>
+    <script type="text/javascript" src="autocomplete.js"></script>
+<script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+<!-- Start #logo top content of the webpage-->
+<div id="logo">
+    <table style="float: left">
+        <tr>
+<!--            <img src="images/site/logo.jpg" alt="" style="height: 50px"/>-->
+            <td style="valign: top;"></td>
+            <td><h1>
+                <a href="#" style="color: skyblue;">Smart Homes</a>
+            </h1></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><p>
+                <em style="color: skyblue;">World's Largest Online Retail store</em>
+            </p></td>
+        </tr>
+    </table>
+    <div style="float: right; width: 30%; margin-top: 35px; border: 1px solid white; padding: 5px; padding-right: 15px">
+        <em style="color: white;">Search Product:</em>
+        <div name="autofillform">
+            <input type="text" name="searchId" value="" class="input"
+                   id="searchId" onkeyup="doCompletion()" autocomplete="off"
+                   placeholder="search here.." style="padding: 5px; font-size: 16px;"/>
+            <div id="auto-row">
+                <table id="complete-table" class="gridtable"
+                       style="position: absolute; width: 315px;"></table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<hr/>
+<!-- end #logo -->
+<!-- start #header -->
+<!-- menu in header area the header div ends in utility file where header content right side link gets populated with login id cart and logout option -->
+<div id="header">
+    <div id="menu">
+        <ul>
+
+            <li><a href="Home" class="first"><span class="glyphicon">Home</span></a></li>
+            <li><a href="SmartWatchList"><span class="glyphicon">Doorbells</span></a></li>
+            <li><a href="PhoneList"><span class="glyphicon">Doorlocks</span></a></li>
+            <li><a href="LaptopList"><span class="glyphicon">Speakers</span></a></li>
+            <li><a href="VoiceAssistantList"><span class="glyphicon">Lightings</span></a></li>
+            <li><a href=""><span class="glyphicon">Thermostats</span></a></li>
+            <li><a href="Trending"><span class="glyphicon">Trending</span></a></li>
+        </ul>
+    </div>
+    <!-- end #menu -->

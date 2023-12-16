@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+	<FitnessWatchCatalog>
+		<fitnessWatch id="fitness_watch_01">
+			<name>Smart Doorbells</name>
+			<price>49.99</price>
+			<image>fitness-watch-01.jpg</image>
+			<manufacturer>Xiaomi</manufacturer>
+			<condition>New</condition>
+			<discount>5.0</discount>
+			<description>Fitness tracker, watch</description>
+			<type>Fitness Watch</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>0</rebate>
+			<numberOfAvailableProducts>500</numberOfAvailableProducts>
+			<numberOfItemsSold>40</numberOfItemsSold>
+		</fitnessWatch>
+
+		<fitnessWatch id="fitness_watch_02">
+			<name>Sony Doorbell</name>
+			<price>49.99</price>
+			<image>-02.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>5.0</discount>
+			<type>Fitness Watch</type>
+			<description>Fitness tracker, sporty watch</description>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>0</rebate>
+			<numberOfAvailableProducts>200</numberOfAvailableProducts>
+			<numberOfItemsSold>25</numberOfItemsSold>
+		</fitnessWatch>
+	</FitnessWatchCatalog>
+
+	<SmartWatchCatalog>
+		<smartWatch id="apple_watch">
+			<name>Google Doorbell</name>
+			<price>349.99</price>
+			<image>apple-6s.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<type>Smart Watch</type>
+			<description>Has builtin Heart rate monitor</description>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>4</rebate>
+			<numberOfAvailableProducts>1000</numberOfAvailableProducts>
+			<numberOfItemsSold>800</numberOfItemsSold>
+		</smartWatch>
+
+		<smartWatch id="samsung_smartwatch">
+			<name>Samsung Gear 3</name>
+			<price>349.99</price>
+			<image>samsung-smartwatch.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+			<type>Smart Watch</type>
+			<description>Has builtin GPS tracker</description>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>4</rebate>
+			<numberOfAvailableProducts>800</numberOfAvailableProducts>
+			<numberOfItemsSold>400</numberOfItemsSold>
+		</smartWatch>
+	</SmartWatchCatalog>
+
+	
+	
+	<PhoneCatalog>
+		<phone id="iPhone_13">
+			<name>Smart Doorlock</name>
+			<price>1099.99</price>
+			<image>apple-iPhone-13.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>49.0</discount>
+			<description>Promotion display</description>
+			<type>Phone</type>
+			<has-warranty>Yes</has-warranty>
+			<warranty>150</warranty>
+			<rebate>12</rebate>
+			<numberOfAvailableProducts>900</numberOfAvailableProducts>
+			<numberOfItemsSold>600</numberOfItemsSold>
+		</phone>
+
+		<phone id="iPhone_12">
+			<name>Mi -Doorlock</name>
+			<price>999.99</price>
+			<image>iphone-12.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>49.0</discount>
+			<description>LiDAR</description>
+			<type>Phone</type>
+			<has-warranty>Yes</has-warranty>
+			<warranty>100</warranty>
+			<rebate>6</rebate>
+			<numberOfAvailableProducts>400</numberOfAvailableProducts>
+			<numberOfItemsSold>100</numberOfItemsSold>
+		</phone>
+
+		<phone id="pixel_5a">
+			<name>Samsung Doorlock</name>
+			<price>499.99</price>
+			<image>google-pixel-5a.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>Best Camera</description>
+			<type>Phone</type>
+			<has-warranty>Yes</has-warranty>
+			<warranty>50</warranty>
+			<rebate>10</rebate>
+			<numberOfAvailableProducts>100</numberOfAvailableProducts>
+			<numberOfItemsSold>45</numberOfItemsSold>
+		</phone>
+
+		<phone id="pixel_4">
+			<name>Apple Doorlock</name>
+			<price>599.99</price>
+			<image>pixel-4.jpg</image>
+			<manufacturer>Google</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>Best camera</description>
+			<type>Phone</type>
+			<has-warranty>No</has-warranty>
+			<warranty>50</warranty>
+			<rebate>4</rebate>
+			<numberOfAvailableProducts>50</numberOfAvailableProducts>
+			<numberOfItemsSold>2</numberOfItemsSold>
+		</phone>
+
+		<phone id="samsung_fold3">
+			<name>Apple Doorlock M-2</name>
+			<price>1799.99</price>
+			<image>samsung-fold3.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>Can fold</description>
+			<type>Phone</type>
+			<has-warranty>Yes</has-warranty>
+			<warranty>150</warranty>
+			<rebate>0</rebate>
+			<numberOfAvailableProducts>20</numberOfAvailableProducts>
+			<numberOfItemsSold>0</numberOfItemsSold>
+		</phone>
+
+		<phone id="samsung_s21">
+			<name>MI Doorlock</name>
+			<price>999.99</price>
+			<image>samsung-s21.jpg</image>
+			<manufacturer>Samsung</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>Stylus support</description>
+			<type>Phone</type>
+			<has-warranty>Yes</has-warranty>
+			<warranty>75</warranty>
+			<rebate>10</rebate>
+			<numberOfAvailableProducts>50</numberOfAvailableProducts>
+			<numberOfItemsSold>0</numberOfItemsSold>
+		</phone>
+
+		<phone id="oneplus_9pro">
+			<name>Apple Doorlock</name>
+			<price>999.99</price>
+			<image>oneplus-9pro.jpg</image>
+			<manufacturer>OnePlus</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>120Hz, 65W charging</description>
+			<type>Phone</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>8</rebate>
+			<numberOfAvailableProducts>30</numberOfAvailableProducts>
+			<numberOfItemsSold>0</numberOfItemsSold>
+		</phone>
+
+		
+
+	<LaptopCatalog>
+		<laptop id="alienware_m17">
+			<name>Apple Speaker</name>
+			<price>1799.99</price>
+			<image>alienware-m17.jpg</image>
+			<manufacturer>Dell</manufacturer>
+			<condition>New</condition>
+			<discount>150.0</discount>
+			<description>Gaming laptop</description>
+			<type>Laptop</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>0</rebate>
+			<numberOfAvailableProducts>0</numberOfAvailableProducts>
+			<numberOfItemsSold>10</numberOfItemsSold>
+			<accessories>
+				<accessory>xboxone_wc</accessory>
+				<accessory>xboxone_sh</accessory>
+				<accessory>xboxone_kg</accessory>
+				<accessory>xboxone_vb</accessory>
+				<accessory>xboxone_rs</accessory>
+				<accessory>xboxone_mp</accessory>
+				<accessory>xboxone_mc</accessory>
+			</accessories>
+		</laptop>
+
+		<laptop id="dell_xps15">
+			<name>Microsoft Speaker</name>
+			<price>1599.99</price>
+			<image>dell-xps15.jpg</image>
+			<manufacturer>Dell</manufacturer>
+			<condition>New</condition>
+			<discount>100.0</discount>
+			<description>Content creation</description>
+			<type>Laptop</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>0</rebate>
+			<numberOfAvailableProducts>0</numberOfAvailableProducts>
+			<numberOfItemsSold>45</numberOfItemsSold>
+			<accessories>
+				<accessory>xboxone_wc</accessory>
+				<accessory>xboxone_sh</accessory>
+				<accessory>xboxone_kg</accessory>
+				<accessory>xboxone_vb</accessory>
+				<accessory>xboxone_rs</accessory>
+				<accessory>xboxone_mp</accessory>
+				<accessory>xboxone_mc</accessory>
+			</accessories>
+		</laptop>
+
+		<laptop id="macbook_air">
+			<name>Dell Speaker</name>
+			<price>999.99</price>
+			<image>macbook-air.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>50.0</discount>
+			<description>Best for students</description>
+			<type>Laptop</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>2</rebate>
+			<numberOfAvailableProducts>10</numberOfAvailableProducts>
+			<numberOfItemsSold>50</numberOfItemsSold>
+			<accessories>
+				<accessory>xboxone_wc</accessory>
+				<accessory>xboxone_sh</accessory>
+				<accessory>xboxone_kg</accessory>
+				<accessory>xboxone_vb</accessory>
+				<accessory>xboxone_rs</accessory>
+				<accessory>xboxone_mp</accessory>
+				<accessory>xboxone_mc</accessory>
+			</accessories>
+		</laptop>
+
+		<laptop id="apple_mac_pro_16">
+			<name>Hp Speaker</name>
+			<price>1999.99</price>
+			<image>apple-mac-pro-16.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>150.0</discount>
+			<description>Best for video editing</description>
+			<type>Laptop</type>
+			<has-warranty>Yes</has-warranty>
+			<warranty>350</warranty>
+			<rebate>5</rebate>
+			<numberOfAvailableProducts>200</numberOfAvailableProducts>
+			<numberOfItemsSold>155</numberOfItemsSold>
+			<accessories>
+				<accessory>xboxone_wc</accessory>
+				<accessory>xboxone_sh</accessory>
+				<accessory>xboxone_kg</accessory>
+				<accessory>xboxone_vb</accessory>
+				<accessory>xboxone_rs</accessory>
+				<accessory>xboxone_mp</accessory>
+				<accessory>xboxone_mc</accessory>
+			</accessories>
+		</laptop>
+
+		
+
+	<VoiceAssistantCatalog>
+		<voiceAssistant id="amazon_alexa">
+			<name>Amazon Lighting</name>
+			<price>49.99</price>
+			<image>amazon-alexa.jpg</image>
+			<manufacturer>Amazon</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>Alexa</description>
+			<type>Voice Assistant</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>0</rebate>
+			<numberOfAvailableProducts>0</numberOfAvailableProducts>
+			<numberOfItemsSold>0</numberOfItemsSold>
+		</voiceAssistant>
+
+		<voiceAssistant id="apple_homepod">
+			<name>Apple Lighting</name>
+			<price>99.99</price>
+			<image>apple-homepod.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>Apple homepod</description>
+			<type>Voice Assistant</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>2</rebate>
+			<numberOfAvailableProducts>40</numberOfAvailableProducts>
+			<numberOfItemsSold>40</numberOfItemsSold>
+		</voiceAssistant>
+
+		
+
+		<voiceAssistant id="google_home_max">
+			<name>Google Lighting</name>
+			<price>89.99</price>
+			<image>google-home-max.jpg</image>
+			<manufacturer>Google</manufacturer>
+			<condition>New</condition>
+			<discount>0.0</discount>
+			<description>Home max</description>
+			<type>Voice Assistant</type>
+			<has-warranty>No</has-warranty>
+			<warranty>0</warranty>
+			<rebate>1</rebate>
+			<numberOfAvailableProducts>50</numberOfAvailableProducts>
+			<numberOfItemsSold>0</numberOfItemsSold>
+		</voiceAssistant>
+	</VoiceAssistantCatalog>
+
+	<AccessoryCatalog>
+		<accessory id="xboxone_wc">
+			<name>Smart Thermostat</name>
+			<price>89.99</price>
+			<image>XBOX controller.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_sh">
+			<name>Thermostat m3</name>
+			<price>89.99</price>
+			<image>Turtle Beach Headset.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_vb">
+			<name>joystick</name>
+			<price>89.99</price>
+			<image>joystick.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_kg">
+			<name>Keypad</name>
+			<price>89.99</price>
+			<image>keypad.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_rs">
+			<name>Starterkit</name>
+			<price>89.99</price>
+			<image>starterkit.jpeg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_mp">
+			<name>Wireless adpter</name>
+			<price>89.99</price>
+			<image>wirelessadapter.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xboxone_mc">
+			<name>Wireless </name>
+			<price>89.99</price>
+			<image>wirelessadapter.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+
+		<accessory id="xbox360_wc">
+			<name>XBOX Speeding Wheel</name>
+			<price>89.99</price>
+			<image>XBOX360-SpeedWheel.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_sh">
+			<name>XBOX Wireless Adapter</name>
+			<price>89.99</price>
+			<image>xbox360_wa.png</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_vb">
+			<name>Remote</name>
+			<price>89.99</price>
+			<image>remote.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_rs">
+			<name>messengerkit</name>
+			<price>89.99</price>
+			<image>messengerkit.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_mp">
+			<name>Steering</name>
+			<price>89.99</price>
+			<image>steering.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="xbox360_kg">
+			<name>Charger</name>
+			<price>89.99</price>
+			<image>charger.jpg</image>
+			<manufacturer>Microsoft</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+		<accessory id="ps4_wc">
+			<name>PS Controller</name>
+			<price>89.99</price>
+			<image>XBOX controller.jpg</image>
+			<manufacturer>Sony</manufacturer>
+			<condition>New</condition>
+			<discount>40.0</discount>
+		</accessory>
+
+	</AccessoryCatalog>
+</ProductCatalog>
