@@ -1,5 +1,13 @@
 Name: Vijaybhai Bharvad
 
+SmartHomes:
+Steered development of a Smart Homes E-commerce Website, incorporating a diverse product range and a robust review system.
+Crafted a User Role Management system and Analytics Dashboard to empower retailers, enabling datadriven decisions and enhancing overall efficiency and user experience for customers, salespeople, and
+retailers.
+
+
+
+
 How to run SmartHomes
 
 1. Download and install Tomcat v9.0
