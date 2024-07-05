@@ -1,4 +1,3 @@
-Name: Vijaybhai Bharvad
 
 
 Steered development of a Smart Homes E-commerce Website, incorporating a diverse product range and a robust review system.
